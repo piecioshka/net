@@ -1,7 +1,7 @@
 {
     "private": true,
     "name": "net",
-    "description": "TODO",
+    "description": "Display current network connection status",
     "version": "1.0.0",
     "license": "MIT",
     "author": {
@@ -10,36 +10,15 @@
         "url": "https://piecioshka.pl/"
     },
     "scripts": {
-        "clear": "rm -rf dist/ coverage/",
-        "clear:all": "rm -rf node_modules/ && npm run clear",
-        "test": "npm run test:unit",
-        "test:unit": "jasmine JASMINE_CONFIG_PATH=test/unit/jasmine.json",
-        "coverage": "istanbul cover jasmine JASMINE_CONFIG_PATH=test/unit/jasmine.json",
-        "count": "find . -name '*.js' -not -path './node_modules/*' | xargs wc -l | sort -r",
-        "lint": "eslint ./ ; exit 0"
+        "count": "find . -name '*.js' -not -path './node_modules/*' | xargs wc -l | sort -r"
     },
     "dependencies": {},
-    "devDependencies": {
-        "eslint": "^4.13.1",
-        "eslint-config-piecioshka": "^2.0.0",
-        "istanbul": "^0.4.5",
-        "jasmine": "^2.8.0"
-    },
+    "devDependencies": {},
     "repository": {
         "type": "git",
         "url": ""
     },
     "bugs": {
         "url": ""
-    },
-    "files": [
-        ".bin",
-        "src",
-        "index.js",
-        "package.json",
-        "README.md"
-    ],
-    "keywords": [],
-    "main": "./index.js",
-    "bin": "./.bin/cli.js"
+    }
 }
