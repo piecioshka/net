@@ -1,10 +1,14 @@
-# net
+# [net](https://hrubieszowjs.github.io/net/)
 
 > Display current network connection status :globe_with_meridians:
 
-## Demo
+## Demo :gift:
 
-Link: https://hrubieszowjs.github.io/net
+Click here: https://hrubieszowjs.github.io/net/
+
+## Example 
+
+![](./screenshot.png)
 
 ## License
 

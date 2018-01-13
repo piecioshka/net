@@ -8,7 +8,7 @@
     }
     
     function display(text) {
-        $board.innerHTML += `${text}\n`;
+        $board.innerHTML += `${text}<br/>`;
     }
     
     function buildStatus() {
@@ -50,15 +50,15 @@
         
         clear();
         display('net status:');
-        display(` - connection type: ${connectionType}`);
-        display(` - downlink: ${downlink}`);
-        display(` - downlinkMax: ${downlinkMax}`);
-        display(` - effectiveType: ${effectiveType}`);
-        display(` - rtt: ${rtt}`);
+        display(` - connection type: <strong>${connectionType}</strong>`);
+        display(` - downlink: <strong>${downlink}</strong>`);
+        display(` - downlinkMax: <strong>${downlinkMax}</strong>`);
+        display(` - effectiveType: <strong>${effectiveType}</strong>`);
+        display(` - rtt: <strong>${rtt}</strong>`);
     }
     
     function setup() {
-        $board = document.querySelector('pre');
+        $board = document.querySelector('.board');
         logConnectionType();
         window.navigator.connection.addEventListener('change', logConnectionType);
     }

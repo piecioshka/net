@@ -1,8 +1,8 @@
 body {
-    font-family: 'Open Sans', sans-serif;
     font-size: 4vw;
 }
 
-pre {
+.board {
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
