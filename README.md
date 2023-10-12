@@ -1,12 +1,12 @@
-# [net](https://hrubieszowjs.github.io/net/)
+# net
 
-> Display current network connection status :globe_with_meridians:
+Display current network connection status :globe_with_meridians:
 
-## Demo :gift:
+## Preview 🎉
 
-Click here: https://hrubieszowjs.github.io/net/
+https://piecioshka.github.io/net/
 
-## Example 
+## Example
 
 ![](./screenshot.png)
 

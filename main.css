@@ -1,0 +1,13 @@
+body {
+    font-size: 3vw;
+}
+
+.board {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+pre {
+    white-space: pre-line;
+    margin: 0;
+}
